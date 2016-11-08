@@ -14,9 +14,3 @@ run_parse(File, Scheme) -> % parse runs, preconditions, and log actions
 
 run_send(Request) -> % send something to client to run
   'todo'.
-
-run_match(Client) -> % run everything collected on a client
-  'todo'.
-
-run_flames(Client) -> % run everything collected on all clients
-  'todo'.
