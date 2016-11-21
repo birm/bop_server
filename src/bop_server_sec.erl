@@ -1,5 +1,4 @@
--module(bop_server_com).
--behaviour(application).
+-module(bop_server_sec).
 
 sec_verify(To, From, Myid, SrvPub) -> % verify identities with client
   'todo'.
