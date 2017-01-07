@@ -1,4 +1,5 @@
 -module(bop_server_run).
+-import(bop_server_com, [com_out/1])
 -behaviour(application).
 
 % for this, it's important to understand that the application gets everything together, accumulates it, then runs it
@@ -11,6 +12,7 @@ run_new(Request) -> % start a new request to run something
   'todo'.
 
 run_parse(File, Scheme) -> % parse runs, preconditions, and log actions
+  'todo'.
 
 run_send(Request) -> % send something to client to run
   'todo'.
